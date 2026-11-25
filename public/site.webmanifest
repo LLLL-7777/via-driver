@@ -1,7 +1,7 @@
 {
-    "name": "VIA",
-	"short_name": "VIA",
-	"description": "VIA - Your keyboard's best friend",
+    "name": "Web Configurator",
+	"short_name": "Web Configurator",
+	"description": "Web Configurator - based on VIA (GPL-3.0)",
 	"start_url": ".",
     "icons": [
         {

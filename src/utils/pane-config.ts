@@ -5,6 +5,7 @@ import {
   faGear,
   faKeyboard,
   faStethoscope,
+  faTv,
 } from '@fortawesome/free-solid-svg-icons';
 import {ConfigurePane} from '../components/panes/configure';
 import {Debug} from '../components/panes/debug';
@@ -13,6 +14,7 @@ import {Settings} from '../components/panes/settings';
 import {Test} from '../components/panes/test';
 import {ErrorsPaneConfig} from '../components/panes/errors';
 import {HIDConsole} from '../components/panes/hid-console';
+import {ScreenNativePane} from '../components/panes/screen-native';
 
 export default [
   {
@@ -21,6 +23,13 @@ export default [
     icon: faKeyboard,
     title: 'Configure',
     path: '/',
+  },
+  {
+    key: 'screen',
+    component: ScreenNativePane,
+    icon: faTv,
+    title: 'Screen',
+    path: '/screen',
   },
   {
     key: 'test',

@@ -6,3 +6,7 @@ node_modules
 public/definitions
 dist
 dist-ssr
+src/generated
+
+# 产品专用键盘定义（原型机键位/灯效菜单），不入公开仓库，本地保留
+keyboard-definitions/v3/75716396.json
